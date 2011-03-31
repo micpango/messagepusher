@@ -2,7 +2,7 @@
 
 Grails app for real time pushing messages using web sockets.
 
-* App requires a  [Pusher](http://pusher.com) account *
+** App requires a  [Pusher](http://pusher.com) account **
 
 ## Setup
 
