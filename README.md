@@ -6,5 +6,5 @@ Grails app for real time pushing messages using web sockets.
 
 ## Setup
 
-Add pusher specific config to Config.groovy and client.js 
+Fill in pusher specific config in Config.groovy and client.js 
 
