@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background-color: #ccc;
+  background-image: url('/messagepusher/images/message_background.jpg');
+  background-size: 100%
+}
+
+header {
+  height: 20%;
+  margin: 0 auto;
+  padding: 5em 0 0 11em;
+  display: block;
+}
+
+#logo {
+  background: url('/messagepusher/images/logo_main.png') no-repeat top right;
+  width: 200px;
+  height: 100px;
+  margin-left: 60px;
+}
+
+article {
+  padding: 3em 10em 10em 10em;
+}
+
+#messagearea {
+  width:80%;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #05224a;
+  border: 1px solid #05224a;
+  padding: 40px 70px 10px 70px;
+  -webkit-box-shadow: 10px 10px 10px #8a9ab4;
+  border-radius: 7px;
+  opacity: 0.9;
+  line-height: 250%;
+}
+
+.news {
+  font-family: 'Franklin Gothic Medium';
+  color: #d00;
+  font-size: 60%;
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+.title {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+#messagearea p {
+  font-size: 200%;
+}
+
+#messagearea span.info {
+  font-size: 70%;
+}
