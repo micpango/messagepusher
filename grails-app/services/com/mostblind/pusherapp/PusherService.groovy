@@ -28,7 +28,7 @@ class PusherService {
     BigInteger bigInteger = new BigInteger(1, data)
     String hash = bigInteger.toString(16)
     // Zero pad it
-    while (hash.length() < 32) {
+    while (hash.length() < 64) {
       hash = "0" + hash
     }
     return hash
@@ -47,7 +47,6 @@ class PusherService {
       mac.init(signingKey)
 
       byte[] digest = mac.doFinal(data.getBytes("UTF-8"))
-      digest = mac.doFinal(data.getBytes())
       return byteArrayToString(digest)
     } catch (InvalidKeyException e) {
       throw new RuntimeException("Invalid key exception while converting to HMac SHA256")
@@ -171,5 +170,4 @@ class PusherService {
       null
     }
   }
-
 }
