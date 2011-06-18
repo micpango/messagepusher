@@ -7,7 +7,7 @@ stacktrace.log
 .idea
 .iws
 .ipr
-.iml
+*.iml
 /plugins/
 /.settings/
 .DS_Store
