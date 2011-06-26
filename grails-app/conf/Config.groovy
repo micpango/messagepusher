@@ -84,12 +84,6 @@ log4j = {
 
 grails.views.javascript.library="jquery"
 
-// PusherApp configuration
-pusherHost = "api.pusherapp.com"
-pusherApplicationId = ""
-pusherApplicationKey = ""
-pusherApplicationSecret = ""
-
 environments {
   production {
     pusherChannel = 'messagepusher_channel'
@@ -101,3 +95,10 @@ environments {
     pusherChannel = 'test_channel'
   }
 }
+
+
+// Added by the Pusherapp plugin:
+pusherapp.host = "api.pusherapp.com"
+pusherapp.applicationId = ""
+pusherapp.applicationKey = ""
+pusherapp.applicationSecret = ""
