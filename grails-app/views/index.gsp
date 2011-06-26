@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>Cicero News Push</title>
+  <title>News Push</title>
   <script type="text/javascript" src="${resource(dir:'js',file:'jquery-1.4.2.min.js')}"></script>
   <script src="http://js.pusherapp.com/1.5/pusher.min.js"></script>
   <script type="text/javascript" src="${resource(dir:'js',file:'showdown.js')}"></script>

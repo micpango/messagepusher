@@ -10,7 +10,7 @@
         <div id="spinner" class="spinner" style="display:none;">
             <img src="${resource(dir:'images',file:'spinner.gif')}" alt="${message(code:'spinner.alt',default:'Loading...')}" />
         </div>
-        <div id="grailsLogo"><a href="${resource(dir: '/')}"><img src="${resource(dir:'images',file:'logo_main.png')}" alt="Cicero" border="0" /></a></div>
+        <div id="grailsLogo"><a href="${resource(dir: '/')}"><img src="${resource(dir:'images',file:'logo_main.png')}" alt="" border="0" /></a></div>
         <g:layoutBody />
     </body>
 </html>
