@@ -1,6 +1,6 @@
 # Messagepusher
 
-Grails app for real time pushing messages using web sockets.
+Grails app for pushing messages real time using web sockets.
 
 ** App requires a  [Pusher](http://pusher.com) account **
 
